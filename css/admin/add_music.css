@@ -1,0 +1,15 @@
+*{
+  
+    padding: 5px;
+    margin:auto;
+    
+  }
+  input.form-control {
+  
+    width: 50%;
+    
+  }
+  
+  #Add{
+    text-align: center;
+  }

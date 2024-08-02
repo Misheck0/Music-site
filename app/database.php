@@ -40,5 +40,11 @@ function getAllsong() {
 
 }
 
+function downloadCount($id){
+   $qry = "SELECT DONWLOADS FROM Admin where ID=?";
+   $this->db->prepare($qry);
+   
+}
+
 }
 

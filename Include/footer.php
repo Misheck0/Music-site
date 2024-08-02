@@ -1,14 +1,15 @@
+<section id="about"> 
 <div class="developerInfo">
-    <p>This site is maintained by Misheck</p>
+    <p>Still under maintanance</p>
 
 <p>
     <h2>Email:</h2>
     <a href="mailto:tellemmisheck@gmail.com" rel="Email">Send a Email</a>
 </p>
 </div>
-
-<footer>
-    Copy right
+</section>
+<footer style="text-align: center;" >
+    Copy right <?php echo date('Y'); ?>
     
 </footer>
 

@@ -1,5 +1,12 @@
 :root{
     font-family: Arial, Helvetica, sans-serif;
+} 
+body{
+    padding: 2%;
+}
+body main{
+    margin: 1rem;
+    padding:2%;
 }
 .music_container{
     text-align: center;
@@ -14,7 +21,7 @@
     width: 90%;
     height: 50%;
     margin: 20px;
-    padding: 6px;
+    padding:0%;
 }
 .song audio source{
     width: 50rem;
@@ -33,11 +40,11 @@
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 1px;
+    margin: 0%;
+    padding: 10px;
     overflow: hidden;
     background-color: #333;
-    position: fixed;
+   /* position: fixed; */
     top: 0;
     width: 100%;
   }
@@ -63,11 +70,13 @@ ul {
 .nav #home:active{
     color: rgb(0, 81, 255);
 }
-#title{
-    
-    padding:10px;
+.title{
+    margin: auto;
+    padding:0%;
     text-align: center;
     font-weight: bold;
+    color: #333;
+    background-color: #ffffff;
 }
 #see_more{
     text-align: center;
@@ -79,8 +88,9 @@ ul {
 
 }
 .developerInfo{
-    background-color: chartreuse;
-    color: #ffffff;
+    text-align: center;
+    background-color:whitesmoke;
+    color: #111;
 }
 .developerInfo a::after{
     color: brown;
@@ -98,7 +108,7 @@ ul {
     }
     .music_container .artist_pic img{
         width: 20rem;
-        height: 20;
+        height: 20rem;
         text-align: left;
         
     }
@@ -108,5 +118,19 @@ ul {
         font-size: bold;
         list-style: none;
     }
+    img{
+        height: min-content;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0%;
+        padding: 10px;
+        overflow: hidden;
+        background-color: #333;
+       position: fixed; 
+        top: 0;
+        width: 100%;
+      }
 } 
+
  

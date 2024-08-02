@@ -8,12 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin page</title>
   <style>
+    *{
+        padding: 4px;
+    }
      .form_container{
-      background-color: burlywood;
+    
       max-width: 600px;
       margin:0 auto;
       padding:56px;
-      box-shadow:rgba(100,100,111,0.2)0px 7px 29px 0px;
+      box-shadow:rgba(100, 111, 100, 0.63)0px 7px 29px 0px;
+      background-color: rgba(115, 124, 123, 0.664);
     }
     .form-group{
       margin-bottom:30px;
@@ -21,11 +25,29 @@
     label{
       text-align: center;
     }
+
+    .form-btn #btn2{
+        background-color: black;
+        color:white;
+        font-weight: bold;
+        
+        }
+        aside a  #return_home{
+            text-align: left;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: whitesmoke;
+            background-color:black;
+        }
   </style> 
 </head>
-<body style="background-color: cadetblue;">
+<body style="background-color: rgba(190, 219, 217, 0.473);">
+    <aside >
+        <a href="/index.php" rel="return_home"> <button id="return_home">Home</button> </a>
+     </aside>
     <section id="header" style="text-align: center; color: blue;">
-        <h2>TMC Admin Login</h2>
+
+        <h2>Admin is the power<span>Here</span></h2>
     </section>
 
 <div class="form_container" >
@@ -33,11 +55,11 @@
         <div class="error"> </div>
     <div class="form-group">
        
-        <input type="text" id="Username" class="form-control" name="Username"  placeholder="ENTER USERNAME" required >
+        <input type="text" id="Username" class="form-control" name="Username"  placeholder="ENTER USERNAME" required>
     </div>
     <div class="form-group">
         <label for="passwd" class="form-label">Password</label>
-        <input type="password" id="passwd" class="form-control" name="passwd"  placeholder="PASSWORD " required >
+        <input type="password" id="passwd" class="form-control" name="passwd"  placeholder="PASSWORD " required>
     </div>
     <div class="form-btn">
         <input type="submit" class="btn btn-priamry" value="Login" id="btn2">

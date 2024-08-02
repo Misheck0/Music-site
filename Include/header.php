@@ -24,7 +24,10 @@ include_once('app/conn.php');
     <header class="nav">
         <ul>
         <li><a  href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a> </li>
-         <li><a  href="#music" rel="home"><i class="fa-solid fa-music"></i>&nbsp; Music</a></li> 
+         <li><a  href="#music" rel="music_section"><i class="fa-solid fa-music"></i>&nbsp; Music</a></li> 
+
          <li><a  href="#about" rel="about_me"><i class="fa-solid fa-circle-info"></i>&nbsp; reach out</a></li>
-         </ul>
+        <!-- <li><a  href="service.php" rel="about_me"><i class="fa-solid fa-circle-info"></i>&nbsp; Service</a></li> -->
+         
+        </ul>
     </header>
